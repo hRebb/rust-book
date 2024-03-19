@@ -4,7 +4,7 @@ fn main() {
     println!("Guess the number");
     println!("Enter your solution :");
 
-    let mut guess = String::new;
+    let mut guess = String::new();
 
     io::stdin
         .read_lines(&mut guess)
