@@ -7,7 +7,7 @@ fn main() {
     let mut guess = String::new();
 
     io::stdin
-        .read_lines(&mut guess)
+        .read_line(&mut guess)
         .expect("You failed");
 
     println!("You guessed : {guess}");
